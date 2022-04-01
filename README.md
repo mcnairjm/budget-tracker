@@ -16,7 +16,7 @@
   * node server.js and test on localhost:3001
 
 
-![SCREENSHOT](https://github.com/mcnairjm/budget-tracker/blob/budget-tracker/assets/images/budget-tracker.jpg)
+![SCREENSHOT](https://github.com/mcnairjm/budget-tracker/blob/budget-tracker/assets/images/budget-tracker.jpg?raw=true)
 
   ## License
   Read about MIT here:
