@@ -16,7 +16,7 @@
   * node server.js and test on localhost:3001
 
 
-![image](budget-tracker.jpg)
+![image](Assets\budget-tracker.jpg)
 
   ## License
   Read about MIT here:
