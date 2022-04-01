@@ -7,8 +7,7 @@
   ## Table of Contents
   * [Installation](#installation)
   * [License](#license)
-  * [Credits](#credits)
-  * [Test](#test)
+  * [Deployed](#deployed)
   * [Questions](#questions)
   
   ## Installation
@@ -22,10 +21,7 @@
   Read about MIT here:
   https://opensource.org/licenses/MIT
 
-  ## Credits
-  John McNair
-
-  ## Test
+  ## Deployed
   undefined
 
   ## Questions
