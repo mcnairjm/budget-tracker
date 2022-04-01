@@ -6,7 +6,7 @@ request.onupgradeneeded = function(event) {
     const db = event.target.result;
 
     //create object store 'new_transactions'
-    db.createObjectStore('new_transcation', { autoIncrement: true });
+    db.createObjectStore('new_transaction', { autoIncrement: true });
 
 
 };
@@ -25,18 +25,18 @@ request.onerror = function(event) {
 
 // On attempt to submit with no internet
 function saveRecord(record) {
-    const transcation = db.transcation(['new_transaction'], 'readwrite');
+    const transaction = db.transaction(['new_transaction'], 'readwrite');
 
-    const budgetObjectStore = transcation.objectStore('new_transaction');
+    const budgetObjectStore = transaction.objectStore('new_transaction');
 
     budgetObjectStore.add(record);
 };
 
 // data collector
 function uploadTransaction() {
-    const transcation = db.transcation(['new_transaction'], 'readwrite');
+    const transaction = db.transaction(['new_transaction'], 'readwrite');
 
-    const budgetObjectStore = transcation.objectStore('new_transaction');
+    const budgetObjectStore = transaction.objectStore('new_transaction');
 
     const getAll = budgetObjectStore.getAll();
 
